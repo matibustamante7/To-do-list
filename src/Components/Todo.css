@@ -1,0 +1,75 @@
+:root {
+    --color-oscuro: #0f7086;
+    --color-intermedio: #2c889f;
+    --color-claro: #65b8d0;
+    --color-mas-claro: #94ddf3;
+}
+.TodoWrapper{
+    border: 1px solid #000;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 2rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--color-oscuro);
+}
+.TodoWrapper h1{
+    color:var(--color-mas-claro);
+}
+.TodoForm{
+    margin: 2px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.todo-input{
+    background-color: var(--color-claro);
+    border:none;
+    height: 2rem;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.todo-btn{
+    border: none;
+    background-color: var(--color-claro);
+    color: var(--color-oscuro);
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.todo-btn:hover{
+    background-color: var(--color-mas-claro);
+}
+.Todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.Todo-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 3rem;
+}
+.Completed{
+    padding: .2rem;
+    background-color: var(--color-intermedio);
+    border:none;
+    height: 1.5rem;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: var(--color-mas-claro);
+}
+.icon-edit{
+    color: var(--color-mas-claro);
+}
+.icon-delete{
+    color: #c50239;
+}
